@@ -41,4 +41,6 @@ UX/UI Design: Implemented a "Company Selector" grid to allow users to drill down
 └── README.md                  # Project documentation
 
 
-![Historical Stock Price Dashboard](screenshots/Historical Stock Price of 10 Popular Companies screenshot.png)
+<img width="662" height="373" alt="Historical Stock Price of 10 Popular Companies screenshot" src="https://github.com/user-attachments/assets/30dbd15b-6755-42a9-8289-2350e11b4e85" />
+
+
