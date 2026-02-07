@@ -1,0 +1,251 @@
+{
+  "config": "{\"version\":\"5.60\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2},\"customTheme\":{\"name\":\"Bloom\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"useEnhancedTooltips\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "amazon357544739504426.png",
+            "path": "amazon357544739504426.png",
+            "type": 100
+          },
+          {
+            "name": "apple9387818899545406.png",
+            "path": "apple9387818899545406.png",
+            "type": 100
+          },
+          {
+            "name": "facebook717498594454419.png",
+            "path": "facebook717498594454419.png",
+            "type": 100
+          },
+          {
+            "name": "google4892215409455791.png",
+            "path": "google4892215409455791.png",
+            "type": 100
+          },
+          {
+            "name": "microsoft14853637804446018.png",
+            "path": "microsoft14853637804446018.png",
+            "type": 100
+          },
+          {
+            "name": "netflix808492380453512.jpeg",
+            "path": "netflix808492380453512.jpeg",
+            "type": 100
+          },
+          {
+            "name": "tesla35257317031171587.png",
+            "path": "tesla35257317031171587.png",
+            "type": 100
+          },
+          {
+            "name": "uber194986437634733.png",
+            "path": "uber194986437634733.png",
+            "type": 100
+          },
+          {
+            "name": "walmart9780286241245493.png",
+            "path": "walmart9780286241245493.png",
+            "type": 100
+          },
+          {
+            "name": "zoom294887840266975.jpeg",
+            "path": "zoom294887840266975.jpeg",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "Bloom",
+            "path": "BuiltInThemes/Bloom.json",
+            "type": 201
+          },
+          {
+            "name": "CY24SU05",
+            "path": "BaseThemes/CY24SU05.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"72D\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "7d6d5a74d95d03a45e81",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"0babd38c08066060a770\",\"layouts\":[{\"id\":0,\"position\":{\"x\":322.9838249286394,\"y\":106.68696479543293,\"z\":6000,\"width\":94.99524262607041,\"height\":48.22835394862037,\"tabOrder\":6000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"facebook717498594454419.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 48.23,
+          "width": 95.00,
+          "x": 322.98,
+          "y": 106.69,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"1cae7947092c7d0de30e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":401.90294957183636,\"z\":2000,\"width\":413.5946717411989,\"height\":306.90770694576594,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"funnel\",\"projections\":{\"Category\":[{\"queryRef\":\"Append1.Company name\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX.CLOSING STOCK VALUE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Append1\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Company name\"},\"Name\":\"Append1.Company name\",\"NativeReferenceName\":\"Company name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CLOSING STOCK VALUE\"},\"Name\":\"DAX.CLOSING STOCK VALUE\",\"NativeReferenceName\":\"CLOSING STOCK VALUE\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CLOSING STOCK VALUE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"percentBarLabel\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.25}}}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Closing Stock Value by Company'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 306.91,
+          "width": 413.59,
+          "x": 0.00,
+          "y": 401.90,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"216c5640156e27c9819e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":125.686013320647,\"y\":40.921027592768795,\"z\":9000,\"width\":232.37297811607993,\"height\":58.45861084681256,\"tabOrder\":9000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"microsoft14853637804446018.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 58.46,
+          "width": 232.37,
+          "x": 125.69,
+          "y": 40.92,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"2aac82270790130812ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":33.61370123691722,\"z\":13000,\"width\":172.45290199809705,\"height\":71.6117982873454,\"tabOrder\":13000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"walmart9780286241245493.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 71.61,
+          "width": 172.45,
+          "x": 0.00,
+          "y": 33.61,
+          "z": 13000.00
+        },
+        {
+          "config": "{\"name\":\"2cfc8acd694031ecebd5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":678.1198858230257,\"y\":20.460513796384397,\"z\":8000,\"width\":103.7640342530923,\"height\":165.1455756422455,\"tabOrder\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"tesla35257317031171587.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 165.15,
+          "width": 103.76,
+          "x": 678.12,
+          "y": 20.46,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"2d5dc3107cdd3d26b560\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":154.91531874405328,\"z\":1000,\"width\":415.0561370123692,\"height\":236.75737392959087,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Append1.Year\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX.AVG DAILY STOCK PRICE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0},{\"Name\":\"a\",\"Entity\":\"Append1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Year\"},\"Name\":\"Append1.Year\",\"NativeReferenceName\":\"Year\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"AVG DAILY STOCK PRICE\"},\"Name\":\"DAX.AVG DAILY STOCK PRICE\",\"NativeReferenceName\":\"AVG DAILY STOCK PRICE\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"AVG DAILY STOCK PRICE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"lineStyles\":[{\"properties\":{\"strokeLineJoin\":{\"expr\":{\"Literal\":{\"Value\":\"'round'\"}}},\"lineChartType\":{\"expr\":{\"Literal\":{\"Value\":\"'step'\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}}},\"selector\":{\"metadata\":\"DAX.AVG DAILY STOCK PRICE\"}}],\"categoryAxis\":[{\"properties\":{\"axisType\":{\"expr\":{\"Literal\":{\"Value\":\"'Categorical'\"}}},\"concatenateLabels\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"leaderLines\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"leaderLineTransparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"leaderLinePattern\":{\"expr\":{\"Literal\":{\"Value\":\"'solid'\"}}},\"labelPrecision\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Average Daily Stock Price by Year'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 236.76,
+          "width": 415.06,
+          "x": 0.00,
+          "y": 154.92,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"2ea0d7405edae3ce2888\",\"layouts\":[{\"id\":0,\"position\":{\"x\":899.3716592962892,\"y\":132.30686406460296,\"z\":16000,\"width\":365.41895789271297,\"height\":252.01307440876755,\"tabOrder\":16000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Append1.Company name\",\"active\":true}],\"Y\":[{\"queryRef\":\"DAX.OPENING STOCK VALUE\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Append1\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Company name\"},\"Name\":\"Append1.Company name\",\"NativeReferenceName\":\"Company name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"OPENING STOCK VALUE\"},\"Name\":\"DAX.OPENING STOCK VALUE\",\"NativeReferenceName\":\"OPENING STOCK VALUE\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"OPENING STOCK VALUE\"}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"labelDisplayUnits\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"valueAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"categoryAxis\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"showAxisTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Opening Stock Value by Company '\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 252.01,
+          "width": 365.42,
+          "x": 899.37,
+          "y": 132.31,
+          "z": 16000.00
+        },
+        {
+          "config": "{\"name\":\"4448ca2b601734ad8821\",\"layouts\":[{\"id\":0,\"position\":{\"x\":169.52997145575642,\"y\":99.37963843958136,\"z\":7000,\"width\":144.6850618458611,\"height\":55.53568030447193,\"tabOrder\":7000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"uber194986437634733.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 55.54,
+          "width": 144.69,
+          "x": 169.53,
+          "y": 99.38,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"6b853303cdd032c21a31\",\"layouts\":[{\"id\":0,\"position\":{\"x\":796.9913478177274,\"y\":20.476062295712364,\"z\":14000,\"width\":467.79926937127476,\"height\":75.60392232263027,\"tabOrder\":14000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Append1.Year\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Append1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Year\"},\"Name\":\"Append1.Year\",\"NativeReferenceName\":\"Year\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Dropdown'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"outlineColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"outlineWeight\":{\"expr\":{\"Literal\":{\"Value\":\"2D\"}}}}}],\"header\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"4D\"}}}}}],\"items\":[{\"properties\":{\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]},\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 75.60,
+          "width": 467.80,
+          "x": 796.99,
+          "y": 20.48,
+          "z": 14000.00
+        },
+        {
+          "config": "{\"name\":\"8585e96926209d7a10b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":431.13225499524265,\"y\":401.90294957183636,\"z\":0,\"width\":834.4966698382493,\"height\":318.5994291151285,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"pivotTable\",\"projections\":{\"Rows\":[{\"queryRef\":\"Append1.Company name\",\"active\":true}],\"Values\":[{\"queryRef\":\"DAX.TOTAL STOCK VOLUME\"},{\"queryRef\":\"DAX.MAX STOCK PRICE\"},{\"queryRef\":\"DAX.MIN STOCK PRICE\"},{\"queryRef\":\"DAX.AVG DAILY STOCK PRICE\"},{\"queryRef\":\"DAX.AVG DAILY STOCK VOLUME\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Append1\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DAX\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Company name\"},\"Name\":\"Append1.Company name\",\"NativeReferenceName\":\"Company name\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"TOTAL STOCK VOLUME\"},\"Name\":\"DAX.TOTAL STOCK VOLUME\",\"NativeReferenceName\":\"TOTAL STOCK VOLUME\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"MAX STOCK PRICE\"},\"Name\":\"DAX.MAX STOCK PRICE\",\"NativeReferenceName\":\"MAX STOCK PRICE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"MIN STOCK PRICE\"},\"Name\":\"DAX.MIN STOCK PRICE\",\"NativeReferenceName\":\"MIN STOCK PRICE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"AVG DAILY STOCK PRICE\"},\"Name\":\"DAX.AVG DAILY STOCK PRICE\",\"NativeReferenceName\":\"AVG DAILY STOCK PRICE\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"AVG DAILY STOCK VOLUME\"},\"Name\":\"DAX.AVG DAILY STOCK VOLUME\",\"NativeReferenceName\":\"AVG DAILY STOCK VOLUME\"}],\"OrderBy\":[{\"Direction\":1,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"AVG DAILY STOCK PRICE\"}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"columnHeaders\":[{\"properties\":{\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Center'\"}}}}}],\"general\":[{\"properties\":{\"layout\":{\"expr\":{\"Literal\":{\"Value\":\"'Compact'\"}}}}}],\"rowHeaders\":[{\"properties\":{\"steppedLayoutIndentation\":{\"expr\":{\"Literal\":{\"Value\":\"10D\"}}}}}],\"subTotals\":[{\"properties\":{\"columnSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"rowSubtotals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}}}}],\"padding\":[{\"properties\":{\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"5D\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"stylePreset\":[{\"properties\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'FlashyRows'\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Stock and Price Analysis of Companies'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 318.60,
+          "width": 834.50,
+          "x": 431.13,
+          "y": 401.90,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"93485fe309c5c900000c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":317.1379638439582,\"y\":40.921027592768795,\"z\":5000,\"width\":119.84015223596575,\"height\":65.76593720266413,\"tabOrder\":5000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"apple9387818899545406.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.77,
+          "width": 119.84,
+          "x": 317.14,
+          "y": 40.92,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"a58845dd18d68d13d07b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":89.14938154138916,\"z\":12000,\"width\":172.45290199809705,\"height\":65.76593720266413,\"tabOrder\":12000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"zoom294887840266975.jpeg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.77,
+          "width": 172.45,
+          "x": 0.00,
+          "y": 89.15,
+          "z": 12000.00
+        },
+        {
+          "config": "{\"name\":\"b9bb4b7fcbc3033a2035\",\"layouts\":[{\"id\":0,\"position\":{\"x\":417.97906755470984,\"y\":40.921027592768795,\"z\":4000,\"width\":156.3767840152236,\"height\":65.76593720266413,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"amazon357544739504426.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 65.77,
+          "width": 156.38,
+          "x": 417.98,
+          "y": 40.92,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"c124e49d90463e090106\",\"layouts\":[{\"id\":0,\"position\":{\"x\":558.2797335870599,\"y\":37.998097050428164,\"z\":10000,\"width\":119.84015223596575,\"height\":116.91722169362512,\"tabOrder\":10000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"netflix808492380453512.jpeg\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 116.92,
+          "width": 119.84,
+          "x": 558.28,
+          "y": 38.00,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"e8299ac1007e6923dcc8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"z\":3000,\"width\":782.8156123822342,\"height\":40.95212459142473,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"HISTORICAL STOCK PRICE ANALYSIS FOR TOP 10 COMPANIES\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Arial Black\",\"fontStyle\":\"italic\",\"fontSize\":\"16pt\"}}]}]}}]}}}",
+          "filters": "[]",
+          "height": 40.95,
+          "width": 782.82,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"eba5cb69777cbd2b205b\",\"layouts\":[{\"id\":0,\"position\":{\"x\":436.2976350701788,\"y\":163.8084983656989,\"z\":15000,\"width\":434.72255335512403,\"height\":220.5114401076716,\"tabOrder\":15000}}],\"singleVisual\":{\"visualType\":\"slicer\",\"projections\":{\"Values\":[{\"queryRef\":\"Append1.Company name\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"Append1\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Company name\"},\"Name\":\"Append1.Company name\",\"NativeReferenceName\":\"Company name\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"data\":[{\"properties\":{\"mode\":{\"expr\":{\"Literal\":{\"Value\":\"'Basic'\"}}}}}],\"general\":[{\"properties\":{\"orientation\":{\"expr\":{\"Literal\":{\"Value\":\"1D\"}}}}}],\"selection\":[{\"properties\":{\"selectAllCheckboxEnabled\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"header\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Companies'\"}}},\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"outlineStyle\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}],\"pendingChangesIcon\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":8,\"Percent\":0}}}}}}}],\"items\":[{\"properties\":{\"bold\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"fontColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":1,\"Percent\":0}}}}},\"background\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0.2}}}}},\"textSize\":{\"expr\":{\"Literal\":{\"Value\":\"14D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 220.51,
+          "width": 434.72,
+          "x": 436.30,
+          "y": 163.81,
+          "z": 15000.00
+        },
+        {
+          "config": "{\"name\":\"f23226f0a206805c1698\",\"layouts\":[{\"id\":0,\"position\":{\"x\":436.9781160799239,\"y\":93.5337773549001,\"z\":11000,\"width\":121.30161750713607,\"height\":77.45765937202664,\"tabOrder\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"google4892215409455791.png\"}}}}}]}},\"howCreated\":\"InsertVisualButton\"}",
+          "filters": "[]",
+          "height": 77.46,
+          "width": 121.30,
+          "x": 436.98,
+          "y": 93.53,
+          "z": 11000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "Bloom"
+}

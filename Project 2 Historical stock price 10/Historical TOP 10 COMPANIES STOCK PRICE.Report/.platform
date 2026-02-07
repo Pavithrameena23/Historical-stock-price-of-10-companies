@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Historical TOP 10 COMPANIES STOCK PRICE"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "195089c4-cff0-4c1b-a0cb-e3f832fffa03"
+  }
+}

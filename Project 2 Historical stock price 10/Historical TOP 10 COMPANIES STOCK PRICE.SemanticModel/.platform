@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Historical TOP 10 COMPANIES STOCK PRICE"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "118ae886-e8cd-40e3-8f95-be0d7fff7027"
+  }
+}

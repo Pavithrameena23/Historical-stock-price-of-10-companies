@@ -1,0 +1,178 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 2188,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 12
+          },
+          "nodeIndex": "Amazon1",
+          "nodeLineageTag": "3f59aa3f-0ae4-47bb-a9b3-459e5437fa0e",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 12
+          },
+          "nodeIndex": "Apple1",
+          "nodeLineageTag": "4417d384-e338-400e-8114-728a9240007a",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 568,
+            "y": 12
+          },
+          "nodeIndex": "Facebook1",
+          "nodeLineageTag": "00bb8268-75bf-454b-b789-42b2b03d2b9d",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 12
+          },
+          "nodeIndex": "Google1",
+          "nodeLineageTag": "4d08119c-dd32-4ab2-b49f-4c96c0ee9bfd",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 12
+          },
+          "nodeIndex": "Microsoft1",
+          "nodeLineageTag": "47968d22-2c3f-494d-b5cb-39020ee70c41",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1420,
+            "y": 12
+          },
+          "nodeIndex": "Netflix1",
+          "nodeLineageTag": "b24ec08c-35b9-47e7-ab0f-78e8d1a4ccc5",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1704,
+            "y": 12
+          },
+          "nodeIndex": "Tesla1",
+          "nodeLineageTag": "db231cbd-cbfa-424a-943c-d2beee9b6f20",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1988,
+            "y": 12
+          },
+          "nodeIndex": "Uber1",
+          "nodeLineageTag": "4f3aa57d-2d06-441a-aa86-0445253a69d2",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2272,
+            "y": 12
+          },
+          "nodeIndex": "Walmart1",
+          "nodeLineageTag": "2f23b45e-987f-45d6-b5ec-2c1aa3235a76",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2556,
+            "y": 12
+          },
+          "nodeIndex": "Zoom1",
+          "nodeLineageTag": "2c9c356b-7f96-45e7-8ac0-934484419a6f",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2840,
+            "y": 0
+          },
+          "nodeIndex": "Append1",
+          "nodeLineageTag": "306f34e4-a8af-4644-9cbf-f055147b5e19",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3124,
+            "y": 84
+          },
+          "nodeIndex": "DAX",
+          "nodeLineageTag": "051527d0-e1be-456d-a2e2-5ff6b7ea2ad5",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

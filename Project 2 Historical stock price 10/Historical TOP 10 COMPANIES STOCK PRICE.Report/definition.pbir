@@ -1,0 +1,9 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Historical TOP 10 COMPANIES STOCK PRICE.SemanticModel"
+    },
+    "byConnection": null
+  }
+}
